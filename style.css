@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4da4eb;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90%;
+  padding: 1rem 0.8em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  box-shadow: 0 25px 50px rgba(0, 4, 8, 0.1);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  background-color: #f0f0f0;
+  padding: 0.8rem;
+}
+
+button {
+  height: 1.1rem;
+  width: 1.1rem;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+i {
+  background-color: transparent;
+}
+
+select {
+  padding: 0.1rem;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="color"] {
+  border: none;
+  width: 2.5rem;
+  height: 1.8rem;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+#textInput {
+  height: 60vh;
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  border: 0.5px solid #ddd;
+  outline: none;
+}
